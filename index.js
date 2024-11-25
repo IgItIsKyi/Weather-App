@@ -1,7 +1,6 @@
-import { config } from 'dotenv'
-config()
 
-w_call = "https://api.openweathermap.org/data/2.5/weather?q=Orlando&units=imperial&appid=b90d56ad9e582c78d49348953405002f"
+
+w_call = "https://api.openweathermap.org/data/2.5/weather?q=Orlando&units=imperial&appid={API-Key Goes here}"
 
 // Removed my API Key to save me money because I am a broke college student
 maps_call = "https://maps.googleapis.com/maps/api/js?key={API key goes here}&callback=console.debug&libraries=maps,marker&v=beta"
